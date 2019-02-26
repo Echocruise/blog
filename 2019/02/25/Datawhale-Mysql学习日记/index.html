@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="ECruise">
 <meta property="og:description" content="背景介绍这次是参加 Datawhale 的组队学习计划。学习计划具体内容如下">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-25T13:05:29.226Z">
+<meta property="og:updated_time" content="2019-02-26T13:28:03.963Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Datawhale Mysql学习日记">
 <meta name="twitter:description" content="背景介绍这次是参加 Datawhale 的组队学习计划。学习计划具体内容如下">
@@ -148,7 +148,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    2 分钟 读完 (大约 332 个字)
+                    8 分钟 读完 (大约 1176 个字)
                 </span>
                 
             </div>
@@ -160,10 +160,75 @@
             
         </h1>
         <div class="content">
-            <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>这次是参加 Datawhale 的组队学习计划。学习计划具体内容如下<br><a id="more"></a> </p>
+            <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>这次是参加 Datawhale 的组队学习计划。学习计划具体内容如下<br><a id="more"></a></p>
 <blockquote>
-<p>【组队学习时间】2月26日 - 3月5日。每天22:00发布作业，第二天的22:00为作业截止期限。<br>【打卡方式】知识星球小程序打卡，用小程序/网页版/App均可打卡。之后会给大家发知识星球邀请链接。打卡格式：学员编号-任务名称-你写的csdn博客链接<br>【监督金说明】会收取9.9的报名费，完成任务后会返还8元，剩余1.9元作为优秀learner奖励。<br>【奖励制度】每次任务中第一个学习分享和作业完成最好的人都会得到奖励<br>【清退规则】未按时完成任务的学员，将会被清退！！若有强烈意愿再次进群学习，☆需主动联系负责人并且在下次作业提交截止前，补齐两个任务。（注意：仅有一次再进群机会）<br>来源：<a href="https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&amp;mid=2247484055&amp;idx=1&amp;sn=837e2c01f8c1715c8abf331dfcb4b21f&amp;chksm=e870d3dadf075acc17c0e18b532fcbb9df773a1eec3337634be2fa16f778b47096b79f502735&amp;mpshare=1&amp;scene=1&amp;srcid=#rd" target="_blank" rel="noopener">Datawhale 新学期组队学习计划</a></p>
+<p>【组队学习时间】2月26日 - 3月5日。每天22:00发布作业，第二天的22:00为作业截止期限。</p>
+<ul>
+<li>【打卡方式】知识星球小程序打卡，用小程序/网页版/App均可打卡。之后会给大家发知识星球邀请链接。打卡格式：学员编号-任务名称-你写的csdn博客链接</li>
+<li>【监督金说明】会收取9.9的报名费，完成任务后会返还8元，剩余1.9元作为优秀learner奖励。</li>
+<li>【奖励制度】每次任务中第一个学习分享和作业完成最好的人都会得到奖励</li>
+<li>【清退规则】未按时完成任务的学员，将会被清退！！若有强烈意愿再次进群学习，☆需主动联系负责人并且在下次作业提交截止前，补齐两个任务。（注意：仅有一次再进群机会）<ul>
+<li>来源：<a href="https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&amp;mid=2247484055&amp;idx=1&amp;sn=837e2c01f8c1715c8abf331dfcb4b21f&amp;chksm=e870d3dadf075acc17c0e18b532fcbb9df773a1eec3337634be2fa16f778b47096b79f502735&amp;mpshare=1&amp;scene=1&amp;srcid=#rd" target="_blank" rel="noopener">Datawhale 新学期组队学习计划</a></li>
+</ul>
+</li>
+<li>参考资料：<a href="">SQL必知必会 (豆瓣)</a>(<a href="https://book.douban.com/subject/24250054/)、[SQL必知必会" target="_blank" rel="noopener">https://book.douban.com/subject/24250054/)、[SQL必知必会</a> (豆瓣)]()(<a href="https://book.douban.com/subject/24250054/" target="_blank" rel="noopener">https://book.douban.com/subject/24250054/</a>)</li>
+</ul>
 </blockquote>
+<h2 id="每日学习任务"><a href="#每日学习任务" class="headerlink" title="每日学习任务"></a>每日学习任务</h2><h3 id="20190226"><a href="#20190226" class="headerlink" title="20190226"></a>20190226</h3><ol>
+<li>软件安装及服务器设置</li>
+</ol>
+<p>Mac下安装Mysql</p>
+<ul>
+<li>下载<a href=""> DMG安装包 </a>(<a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">https://dev.mysql.com/downloads/mysql/</a>)</li>
+<li>安装。注意安装界面会让你设置ROOT密码，后续会用到。</li>
+<li>终端连接MySQL<br>  ～～～<br>  PATH=”$PATH”:/usr/local/mysql/bin<br>   mysql -u root -p<br>  ～～～</li>
+</ul>
+<p>教程（注 homebrew安装方法容易失败不建议尝试）：</p>
+<ul>
+<li><a href="">「MySQL基础」Day1 软件安装与数据库基础 | Wind Track</a>(<a href="https://windtrack.xyz/post/1015fd1e/" target="_blank" rel="noopener">https://windtrack.xyz/post/1015fd1e/</a>)</li>
+<li><a href="">mac安装mysql的两种方法（含配置） - 简书</a>(<a href="https://www.jianshu.com/p/fd3aae701db9" target="_blank" rel="noopener">https://www.jianshu.com/p/fd3aae701db9</a>)</li>
+</ul>
+<ol start="2">
+<li>使用图形界面软件  <a href="Navicat%20for%20SQL"> Navicat for SQL </a>(<a href="https://www.navicat.com.cn/products" target="_blank" rel="noopener">https://www.navicat.com.cn/products</a>)</li>
+<li><p>数据库基础知识</p>
+<ul>
+<li><p>数据库定义</p>
+<blockquote>
+<p>电子邮件地址簿、因特网搜索站点、自动取款机上使用ATM卡，这些日常生活中，我们习以为常的行为，背后都有着数据库的影子。<br>数据库是一个以某种有组织的方式存储的数据集合。<br>数据库是通过DBMS（数据管理系统）创建和操纵的容器。</p>
+</blockquote>
+</li>
+<li><p>关系型数据库</p>
+</li>
+<li><p>表</p>
+<blockquote>
+<p>表（table） 某种特定类型数据的结构化清<br>表具有一些特性，这些特性定义了数据在表中如何存储，如可以存储什么样的数据，数据如何分解，各部分信息如何命名，等等。描述表的这组信息就是所谓的模式，模式可以用来描述数据库中特定的表以及整个数据库（和其中表的关系）</p>
+</blockquote>
+</li>
+<li>行<blockquote>
+<p>行（row） 表中的一个记录</p>
+</blockquote>
+</li>
+<li>列<blockquote>
+<p>列（column） 表中的一个字段。所有表都是由一个或多个列组成的。<br>数据库中每个列都有相应的数据类型。数据类型定义列可以存储的数据种类。</p>
+</blockquote>
+</li>
+<li>主键<blockquote>
+<p>唯一标识表中每行的这个列（或这组列）称为主键。<br>主键用来表示一个特定的行任意两行都不具有相同的主键值；  每个行都必须具有一个主键值（主键列不允许NULL值） 。<br>主键通常定义在表的一列上，但这并不是必需的，也可以一起使用多个列作为主键。</p>
+</blockquote>
+</li>
+<li>外键<blockquote>
+<p>表的外键是另一表的主键, 外键可以有重复的, 可以是空值<br>用来和其他表建立联系用的<br>一个表可以有多个外键</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>数据库管理系统</p>
+</li>
+</ol>
+<ul>
+<li>DBMS可分为两类：一类为基于共享文件系统的DBMS，另一类为基于客户机—服务器的DBMS。 前者 （包括诸如Microsoft Access和FileMaker）用于桌面用途，通常不用于高端或更关键的应用。MySQL、Oracle以及Microsoft SQL Server等数据库是基于客户机—服务器的数据库。</li>
+<li>客户机—服务器应用分为两个不同的部分。服务器部分是负责所有数据访问和处理的一个软件。这个软件运行在称为数据库服务器的计算机上</li>
+</ul>
 
         </div>
         
@@ -293,7 +358,15 @@
         <a class="is-flex" href="#背景介绍">
         <span class="has-mr-6">1</span>
         <span>背景介绍</span>
-        </a></li></ul>
+        </a></li><li>
+        <a class="is-flex" href="#每日学习任务">
+        <span class="has-mr-6">2</span>
+        <span>每日学习任务</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#20190226">
+        <span class="has-mr-6">2.1</span>
+        <span>20190226</span>
+        </a></li></ul></li></ul>
         </div>
     </div>
 </div>
